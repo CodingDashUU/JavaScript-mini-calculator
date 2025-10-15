@@ -1,0 +1,102 @@
+.calc{
+    background-color: black;
+    color: yellow;
+    font-size: 3em;
+    width: 100px;
+    height: 100px;
+    border-radius: 30px;
+    transition: transform 0.3s ease, background-color 0.5s ease;
+    
+}
+.calc:hover{
+   
+  transform: scale(1.15,1.15);
+  background-color: hsl(0, 100%, 70%);
+
+
+}
+.calc:active{
+    transform:rotate(180deg) ;
+}
+.box{
+    border: 2px solid;
+    width: 700px;
+    height: 150px;
+    margin-bottom: 20px;
+    font-size: 5em;
+    overflow-x: scroll;
+}
+#plus{
+    color: green;
+}
+#minus{
+    color: red;
+}
+#divide{
+    color: blue;
+}
+#multiply{
+    color: orange;
+}
+#exponent{
+    color: orange;
+}
+#answer::before,#answer::after{
+    content: "⭐";
+    width: 50px ;
+    height:50px ;
+}
+#parenthesisc,#parenthesiso{
+color: blueviolet;
+}
+#clear{
+    color: brown;
+}
+#equal{
+    color: hsl(39, 100%, 80%);
+}
+body{
+    background-color: grey;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#decimal{
+    color: hsl(8, 100%, 70%);
+}
+label,h1{
+    font-size: 3em;
+}
+input{
+    font-size: 3em;
+    width: 300px;
+    height: 75px;
+    border-radius: 50px;
+    text-align: center;
+    background-color: bisque;
+}
+#calculate{
+    width: 200px;
+    height: 50px;
+    color: black;
+    background-color: hsl(33, 100%, 88%);
+    font-size: 1.5em;
+    margin: 6px;
+    border: 10px solid;
+    border-radius: 30px;
+}
+#calculate:hover{
+    background-color: hsl(33, 100%, 75%);
+}
+#calculate:active{
+    transform: scale(0.75,0.75);
+}
+#outputbox{
+    border: 8px solid;
+    background-color: hsl(0, 0%, 70%);
+    min-height: 300px;
+    text-align: center;
+}
+
+
+
+
+

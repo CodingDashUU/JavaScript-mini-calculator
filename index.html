@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+</head>
+<body>
+    <hr>
+    <h1>Basic Calculator</h1>
+    <div class="box" id="answer"></div>
+
+    <button class="calc" id="plus">+</button>
+    <button class="calc" id="minus">-</button>
+    <button class="calc" id="multiply">x</button>
+    <button class="calc" id="divide">/</button>
+    <button class="calc" id="exponent">^</button><br>
+    <button class="calc" id="one">1</button>
+    <button class="calc" id="two">2</button>
+    <button class="calc" id="three">3</button>
+    <button class="calc" id="parenthesiso">(</button> <br> 
+    <button class="calc" id="four">4</button>
+    <button class="calc" id="five">5</button>
+    <button class="calc" id="six">6</button> 
+    <button class="calc" id="parenthesisc">)</button> <br>
+
+    <button class="calc" id="seven">7</button>
+    <button class="calc" id="eight">8</button>
+    <button class="calc" id="nine">9</button>
+    <button class="calc" id="clear">C</button> <br>
+    
+    <button class="calc" id="decimal">.</button>
+    <button class="calc" id="zero">0</button>
+    <button class="calc" id="delete">Del</button>
+    <button class="calc" id="equal">=</button>
+<hr>
+    <h1>Compound Interest Calculator</h1> 
+    <label for="sign">Enter your country's currency sign (eg. $ or USD)</label> <br>
+    <input type="text" id="sign" maxlength="3"> <br><br>
+    <label for="principle">Enter your initial amount:</label> <br>
+    <input type="number" min="1" id="principle"> <br><br>
+    <label for="years">How long will you be investing your initial amount (in years):</label> <br>
+    <input type="number" min="1" id="years"><br><br>
+    <label for="interest">Enter your annual interest amount:</label> <br>
+    <input type="number" id="interest" min="1"> <br><br>
+    <label for="compound">How many times per year will your interest amount be applied</label> <br>
+    <input type="number" min="1" id="compound"> <br>
+    <button id="calculate">Calculate</button> <br><br><br>
+    <div id="outputbox">
+    <h1>Result:</h1>
+    <input type="text" readonly id="output">
+    </div>
+
+
+
+    <script src="script.js"></script>
+    
+</body>
+</html>
